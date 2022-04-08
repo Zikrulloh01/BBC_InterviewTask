@@ -1,13 +1,13 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-07T15:00:12.303Z",
+        "start_timestamp": "2022-04-08T02:06:56.062Z",
         "before": [
           {
             "result": {
-              "duration": 7654451200,
+              "duration": 9280311000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 831456300,
+              "duration": 860481600,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3883400,
+              "duration": 3014400,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 4680833000,
+              "duration": 6076273500,
               "status": "passed"
             },
             "line": 7,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 167094600,
+              "duration": 252005600,
               "status": "passed"
             },
             "line": 8,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 2061456500,
+              "duration": 2599957200,
               "status": "passed"
             },
             "line": 9,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 196297200,
+              "duration": 156059600,
               "status": "passed"
             },
             "line": 10,
@@ -108,7 +108,7 @@
         ],
         "tags": [
           {
-            "name": "@wip"
+            "name": "@smoke"
           }
         ]
       }
@@ -118,6 +118,1583 @@
     "id": "as-a-sports-user--i-would-like-to-read-about-all-articles-related-to-sports",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/articles.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-08T02:07:15.419Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6849790300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 887446100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 883200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2206019800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1184305800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"esnoden0@cam.ac.uk\" and \"CFF9nCCL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"esnoden0@cam.ac.uk\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"CFF9nCCL\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273910400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:07:26.864Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5312191700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 859529300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1073900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2218467000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1068324100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"cboothroyd1@nymag.com\" and \"iFWu5kLBsqM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cboothroyd1@nymag.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"iFWu5kLBsqM\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249658400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:07:36.581Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4708847000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 831279400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2164120500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002053800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"lfender2@github.com\" and \"jdhssjUmuZDeE4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lfender2@github.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"jdhssjUmuZDeE4\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151975300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:07:45.449Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5037472400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 822352600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1703700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2167816100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1047241900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"plubbock3@time.com\" and \"XabKWi4JYsdsad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"plubbock3@time.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"XabKWi4JYsdsad\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167774100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:07:54.701Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8023103700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 720050300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1042300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2156755600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7508476300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"chitter4@guardian.co.uk\" and \"X8Kwdf1rP9dg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chitter4@guardian.co.uk\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"X8Kwdf1rP9dg\"",
+                  "offset": 51
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115029400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:08:13.242Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9101141200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 899802200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4486500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2291351500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1420015300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"uminshall6@mlb.com\" and \"1oyLQUXJTL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uminshall6@mlb.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"1oyLQUXJTL\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 257171400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:08:27.239Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9832680200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 848599600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2122741700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2777263000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"abowcock5@chronoengine.com\" and \"yAT7gsffKNH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abowcock5@chronoengine.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"yAT7gsffKNH\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156877800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:08:42.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4649121000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 834497400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1451800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2185212400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1544658600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"lsime8@desdev.cn\" and \"sU1O45CYaMKB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lsime8@desdev.cn\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"sU1O45CYaMKB\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152926000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:08:52.373Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5148657900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 816298300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2517400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2145099300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131078700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"redes9@samsung.com\" and \"FQPlzvSsdsd4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"redes9@samsung.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"FQPlzvSsdsd4\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167713700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:09:01.799Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5481910100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 848000700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2211471000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1446104400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"abarbarya@pbs.org\" and \"BNDamAz4NoTfC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abarbarya@pbs.org\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"BNDamAz4NoTfC\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134516200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:09:11.931Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7165241800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 834954000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 665600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2193920200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1664363500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"bvernib@usa.gov\" and \"H7yw5CWaRZk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bvernib@usa.gov\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"H7yw5CWaRZk\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118905400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:09:23.917Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7651600300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 838624800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 931300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2195259300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1042057300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"apyec@ovh.net\" and \"7ggLtFSNRi4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"apyec@ovh.net\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"7ggLtFSNRi4\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132151300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:09:35.782Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4274745300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;14",
+        "after": [
+          {
+            "result": {
+              "duration": 851760300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 877200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2200175600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1188887100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"cdewilded@nps.gov\" and \"DdRmVuLs8Yssw\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cdewilded@nps.gov\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"DdRmVuLs8Yssw\"",
+                  "offset": 45
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143989800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-08T02:09:44.449Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5359238500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Select ‘Sign in’, and enter as many negative scenarios as possible. Verify that a error message is displayed and the text that it  Scenario:",
+        "description": "  contains is as expected.",
+        "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login;select-‘sign-in’--and-enter-as-many-negative-scenarios-as-possible.-verify-that-a-error-message-is-displayed-and-the-text-that-it--scenario:;;15",
+        "after": [
+          {
+            "result": {
+              "duration": 851064200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2123510100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to \"Sign in\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.search_step_definitions.user_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 904047700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters negative \"afarnfielde@wp.com\" and \"XAg6ERluqsdsdsd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"afarnfielde@wp.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"XAg6ERluqsdsdsd\"",
+                  "offset": 46
+                }
+              ],
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.user_enters_negative_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139192000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify error message",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.signIn_step_definitions.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "As a QA, I would like to verify all negative scenarios for login",
+    "description": "",
+    "id": "as-a-qa--i-would-like-to-verify-all-negative-scenarios-for-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signIn.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-08T02:09:53.843Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5614722600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Output all team names with a match today. If there are no matches today, output a message to convey this.",
+        "description": "",
+        "id": "as-a-business-user--i-would-like-to-make-a-record-of-all-teams-which-are-playing-today;output-all-team-names-with-a-match-today.-if-there-are-no-matches-today--output-a-message-to-convey-this.",
+        "after": [
+          {
+            "result": {
+              "duration": 782305900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bbc_tests.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9452900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the web page",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.theUserIsOnTheWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 817404400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User needs to collect info about today\u0027s matches",
+            "match": {
+              "location": "com.bbc_tests.step_definitions.match_steps.userNeedsToCollectInfoAboutTodaySMatches()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a business user, I would like to make a record of all teams which are playing today",
+    "description": "",
+    "id": "as-a-business-user--i-would-like-to-make-a-record-of-all-teams-which-are-playing-today",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/todaysMatches.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

@@ -1,10 +1,9 @@
 package com.bbc_tests.step_definitions;
 
 import com.bbc_tests.pages.SearchPage;
-import com.bbc_tests.utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
+
 
 public class search_step_definitions {
 

@@ -15,7 +15,4 @@ public class SearchPage extends BasePage{
 
     @FindBy(xpath = "//button[@data-testid='test-search-submit']")
     public WebElement searchButton;
-
-
-
 }

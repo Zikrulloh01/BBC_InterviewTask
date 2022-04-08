@@ -1,6 +1,5 @@
 package com.bbc_tests.step_definitions;
 
-import com.bbc_tests.utilities.ConfigurationReader;
 import com.bbc_tests.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

@@ -1,3 +1,4 @@
+@smoke
 Feature: As a business user, I would like to make a record of all teams which are playing today
 
 

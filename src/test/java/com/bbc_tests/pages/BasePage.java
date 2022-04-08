@@ -1,5 +1,6 @@
 package com.bbc_tests.pages;
 
+import com.bbc_tests.utilities.BrowserUtils;
 import com.bbc_tests.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
@@ -14,6 +15,7 @@ public abstract class BasePage {
 
     public void navigateTo(String linkText){
         Driver.getDriver().findElement(By.linkText(linkText)).click();
+        BrowserUtils.waitFor(2);
     }
 
 

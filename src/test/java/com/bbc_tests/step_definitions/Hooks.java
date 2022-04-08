@@ -11,8 +11,8 @@ import org.openqa.selenium.TakesScreenshot;
 public class Hooks {
     @Before()
     public void setUp(){
-        Driver.getDriver().get(ConfigurationReader.getKey("url"));
         Driver.getDriver().manage().window().maximize();
+        Driver.getDriver().get(ConfigurationReader.getKey("url"));
     }
 
 
